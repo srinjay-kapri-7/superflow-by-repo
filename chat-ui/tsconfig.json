@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "outDir": "dist",
+    "module": "esnext",
+    "target": "es5",
+    "lib": ["es6", "dom", "esnext"],
+    "sourceMap": true,
+    "allowJs": true,
+    "jsx": "react",
+    "declaration": true,
+    "moduleResolution": "node",
+    "forceConsistentCasingInFileNames": false,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "paths": {
+      "react": ["./node_modules/react"],
+      "react-dom": ["./node_modules/react-dom"]
+    },
+    "noImplicitAny": true,
+    "strictNullChecks": false,
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "esModuleInterop": true
+  },
+  "include": ["src"],
+  "exclude": ["node_modules", "dist", "example", "rollup.config.mjs"]
+}
