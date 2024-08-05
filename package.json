@@ -1,5 +1,5 @@
 {
-  "name": "yq-sf-by-repo",
+  "name": "@srinjay-kapri-7/yq-sf-by-repo",
   "version": "1.0.0",
   "main": "chat-ui/dist/index.js",
   "devDependencies": {
