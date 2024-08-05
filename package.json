@@ -1,7 +1,7 @@
 {
   "name": "@srinjay-kapri-7/yq-sf-by-repo",
-  "version": "1.0.3",
-  "main": "./chat-ui/dist/index.js",
+  "version": "1.0.4",
+  "main": "chat-ui/dist/index.js",
   "devDependencies": {
     "@babel/core": "^7.23.9",
     "@babel/plugin-transform-nullish-coalescing-operator": "^7.23.4",
@@ -55,7 +55,7 @@
     "prepare": "husky install"
   },
   "files": [
-    "dist"
+    "chat-ui"
   ],
   "dependencies": {
     "@headlessui/react": "1.4",
